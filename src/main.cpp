@@ -5,6 +5,6 @@
 int main()
 {
 	std::cout << "this is main program" << std::endl;
-	Lexer mainLexer;
+	Lexer mainLexer(0);
 	return 0;
 }

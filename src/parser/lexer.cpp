@@ -1,7 +1,12 @@
 #include "lexer.h"
 #include <iostream>
 
+
 Lexer::Lexer()
 {
-	std::cout << "This is lexer constructor " <<std::endl;
+}
+
+Lexer::Lexer(int test)
+{
+  std::cout << "This is lerser" << std::endl;
 }
