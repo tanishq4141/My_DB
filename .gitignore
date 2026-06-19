@@ -1,0 +1,17 @@
+# Build artifacts
+minidb
+*.o
+*.d
+
+# Data directory
+minidb_data/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
